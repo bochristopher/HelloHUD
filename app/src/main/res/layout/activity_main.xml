@@ -32,16 +32,23 @@
                 android:textSize="64sp"
                 android:textStyle="bold" />
 
+            <View
+                android:id="@+id/breatheOrb"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/orb_gradient" />
+
             <TextView
                 android:id="@+id/breatheText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginStart="48dp"
                 android:layout_marginEnd="48dp"
                 android:maxWidth="900dp"
                 android:gravity="center"
-                android:text="Remember to breathe"
+                android:text="Inhale"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
